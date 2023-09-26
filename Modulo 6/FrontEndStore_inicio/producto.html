@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <a class="header__logo" href="index.html"><img src="./img/logo.png" alt="Logo de la Tienda"></a>
+    </header>
+
+    <nav class="navegacion">
+            <a class="navegacion__enlace" href="index.html">Tienda</a>
+            <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+<section class="remera">
+    <img class="remera__imagen" src="img/3.jpg" alt="Remera img">
+    <article class="remera__contenido">
+        <p>Phasellus sem felis, dictum aliquet quam ut, tristique lobortis felis. Nullam auctor leo quam, vel fringilla libero volutpat nec. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+    
+        <form class="formulario">
+            <select class="formulario__introducir">
+                <option disabled selected>--Seleccionar Talla--</option> <!--Disabled selected es para cuando este por default y que no se pueda volver a seleccionar-->
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            <input  class="formulario__introducir" type="number" placeholder="Cantidad" min="1">
+            <input class="formulario__boton" type="submit" value="Agregar al carrito">
+        </form>
+    
+    
+    
+    </article>
+</section>
+    </main>
+
+
+<footer class="footer">
+    <p class="footer__texto">Front End Store - Todos los derechos reservados 2023</p>
+</footer>
+
+</body>
+</html>
